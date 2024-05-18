@@ -1,0 +1,72 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerContainer {
+    background-color: var(--Blue);
+    color: #000000;
+
+}
+
+.advertising {
+    width: 100vw;
+    background-color: var(--White);
+
+}
+
+.navegationContainer {
+    margin: 1rem 0;
+}
+
+.searchBarContainer {
+    width: 100vw;
+    padding: 0 0.5rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logoHeader img{
+    min-width: 4rem;
+    width: 100%;
+    max-width: 6rem;
+
+    border-radius: 50%;
+}
+
+.searchBar{
+    flex-direction: row;
+}
+
+.searchBar input{
+    max-width: 50rem;
+    width: 100%;
+    margin-left: 0.5rem;
+    border: none;
+}
+
+.searchBar button{
+    border: none;
+}
+.searchBar img{
+    width: 1rem;
+}
+
+.itensAndAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itensAndAccount img{
+    width: 1.5rem;
+}
+
+.listLink {
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

@@ -1,0 +1,17 @@
+{
+    "Etapa1" : {
+        "HTML": "utilizar semantico e detalhado possivel e bem estruturado",
+        "CSS": "Preferencia DarkMode e Mobile first(utilizar tabela de tamanho). 100% Responsivo utilizar variaveis e organizado",
+        "JAVASCRIPT": "utilizar constructor e separar cada ação"
+    },
+    "Etapa2": {
+        "Usuario": "Adquerir nome, email, cep, senha e idade",
+        "Sistema": "Validar email, cep, senha e idade. Validar de o produto no carrinho foi pago",
+        "BancoDeDados": "Salva os itens do carrinho e informações do usuario"
+    },
+    "Etapa3": {
+        "Testar": "fazer Teste para ver se tudo está conforme o planejado",
+        "Comentario": "Adicionar comentarios nos codigos para futuras manutenções e melhor entendimento tecnico",
+        "FeedBack": "Receber feedback tecnico e visual!"
+    }
+}

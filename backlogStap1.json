@@ -1,0 +1,5 @@
+{
+    "Responsivo": ["Mobile", "Tablet", "Notebook", "Computador"],
+    "Pages": ["Cadastrar, Entrar, Carrinho"],
+    "Cores": ["Azul", "Preto", "Branco"]
+}
