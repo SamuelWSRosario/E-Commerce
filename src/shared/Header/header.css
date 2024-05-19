@@ -14,7 +14,45 @@
 .advertising {
     width: 100vw;
     background-color: var(--White);
+   height: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
+.advertising-item{
+    text-align: center;
+    position: absolute;
+    font-size: 3.3vmin;
+    opacity: 0;
+    animation: advertising-animation 12s infinite reverse;
+}
+
+.advertising-item:nth-child(1) {
+
+    animation-delay: 0s;
+}
+
+.advertising-item:nth-child(2) {
+
+    animation-delay: 3s;
+}
+.advertising-item:nth-child(3) {
+
+    animation-delay: 6s;
+}
+
+.advertising-item:nth-child(4) {
+
+    animation-delay: 9s;
+}
+
+@keyframes advertising-animation {
+    0% { opacity: 0; transform: translateX(-100%); }
+    5% { opacity: 1; transform: translateX(0); }
+    25% { opacity: 1; transform: translateX(0); }
+    30% { opacity: 0; transform: translateX(100%); }
+    100% { opacity: 0; transform: translateX(100%); }
 }
 
 .navegationContainer {
@@ -29,25 +67,33 @@
 }
 
 .logoHeader img{
-    min-width: 4rem;
+    min-width: 3rem;
     width: 100%;
-    max-width: 6rem;
+    max-width: 5rem;
 
-    border-radius: 50%;
+    border-radius: 25%;
+    box-shadow: 0 0 1rem 0 #000000;
 }
 
 .searchBar{
     flex-direction: row;
+    width: 30rem;
 }
 
 .searchBar input{
-    max-width: 50rem;
     width: 100%;
+    height: 2rem;
     margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
     border: none;
 }
 
 .searchBar button{
+    width: 3rem;
+    height: 2rem;
+
+    border-radius:0 0.5rem 0.5rem 0;
     border: none;
 }
 .searchBar img{
@@ -57,16 +103,38 @@
 .itensAndAccount{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    gap: 3vw;
+    margin: 0 0.5rem;
+}
+.itensAndAccount a{
+    display: flex;
+    align-items: center;
     justify-content: center;
+    background-color: var(--White);
+    border-radius: 2rem;
+    width: 7vmin;
+    height: 7vmin;
+    min-width: 2rem;
+    min-height: 2rem;
 }
 
 .itensAndAccount img{
-    width: 1.5rem;
+    width: 7vw;
+    max-width: 2rem;
+    min-width: 1.5rem;
 }
 
 .listLink {
     width: 100vw;
     flex-direction: row;
     justify-content: space-around;
+
+}
+
+.listLink a {
+    color: var(--White);
+    font-size: 3vmin;
+    border-bottom: 1px solid var(--White) ;
 
 }

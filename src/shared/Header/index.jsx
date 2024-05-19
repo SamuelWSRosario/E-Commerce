@@ -7,9 +7,14 @@ import Search from '../../assets/icons/search.svg'
 function Header(){
     return (
         <header className='headerContainer center'>
-            <span className='advertising'>propaganda</span>
-            <nav className='navegationContainer center'>
-                
+            <div className='advertising'>
+                <span className='advertising-item'>Promoção venda de Notebooks samsung 50% de desconto</span>
+                <span className='advertising-item'>Intel i5 10th + Memoria ram de 16gb com FRETE GRATIS</span>
+                <span className='advertising-item'>Placa de video 3080 NVIDIA ENVIOS INTERNACIONAIS</span>
+                <span className='advertising-item'>ATENÇÂO NÃO COBRAMOS TAXA DE IMCS ATÉ 2026</span>
+            </div>
+
+            <nav className='navegationContainer center'>    
                 <div className='searchBarContainer center'>
                     <a className='logoHeader' href="#"><img src={Logo} alt="Logo" /></a>
                     <div className='searchBar center'>
@@ -29,6 +34,7 @@ function Header(){
                     <li><a href="#">Envio nacional</a></li>
                 </ul>
             </nav>
+            
         </header>
     )
 }
