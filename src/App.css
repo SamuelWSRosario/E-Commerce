@@ -5,11 +5,12 @@
   text-decoration: none;
   list-style-type: none;
 
-  --Black-Background: #1C1C1C;
+  --Black: #1C1C1C;
   --White: #F8F9FA;
   --Blue:  #007BFF;
+  --FontSize: 3.5vmin;
 }
 
 body{
-  background-color: var(--Black-Background);
+  background-color: var(--Black);
 }
